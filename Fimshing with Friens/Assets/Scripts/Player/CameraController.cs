@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField]
     private Transform playerCamera;
+    public Transform getPlayerCamera() { return playerCamera; }
     private PlayerInput inputs;
 
     private float xRotation = 0f;
